@@ -1,0 +1,171 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box
+}
+
+:root{
+  font-size: 62.5%
+}
+
+body{
+  background-color: rgb(3, 11, 13);
+
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  padding: 10rem;
+
+  font-family: 'Roboto';
+}
+
+header {
+  display: flex;
+  gap: 30rem;
+
+  margin-bottom: 8rem;
+}
+
+.favoritos {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.favoritos input{
+  width: 46.2rem;
+  height: 4.8rem;
+
+  background: #06181C;
+  color: #fff;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  padding-left: 1rem
+}
+
+.favoritos button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+
+  width: 17.0rem;
+  height: 4.8rem;
+
+  background: #065E7C;
+
+  color: #fff;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+}
+
+table{
+  border-collapse: collapse;
+  
+  width: 100%;
+}
+
+table tbody tr td.td_one{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 2rem;
+}
+
+table tbody tr{
+  background: rgb(3, 11, 13);     
+  
+  border-left: 1px solid #2d5159;
+  border-right: 1px solid #2d5159;
+  border-bottom: 1px solid #2d5159;
+}
+
+table tbody tr.tr_border{
+  border: 1px solid #2d5159;
+  background: rgb(6, 22, 27); 
+}
+
+table tbody tr td{
+  padding: 1rem 0 1rem 3rem;
+  
+  color: white;
+
+  font-size: 1.5rem;
+}
+
+table tbody tr td a{
+  text-decoration: none;
+  color: white;
+}
+
+table tbody tr td p{
+  font-weight: bold;
+}
+
+table tbody tr td img{
+  width: 5rem;
+  height: 5rem;
+
+  border-radius: 50%;
+}
+
+table thead{
+  border: 1px solid #2d5159;
+  border-bottom: 1px solid rgb(3, 11, 13);
+}
+
+table thead tr th{
+  text-align: left;
+
+  padding-left: 2rem;
+
+  background-color: #092D38;
+  color: white;
+
+  width: 5rem;
+  height: 5rem;
+
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+table tbody button{
+  background: none;
+  color: #F75A68;
+
+  font-weight: bold;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+div.inicio{
+  color: #4E5455;
+
+  height: 55rem;
+
+  text-align: center;
+  font-size: 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+
+  border: 1px solid #4E5455;
+}
+
+div.inicio svg{
+  width: 13.2rem;
+  height: 12.5rem;
+}
+
+div.hide{
+  display: none;
+}
