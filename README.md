@@ -15,6 +15,6 @@
 * JavaScript 
 ## Abrir Projeto
 
-[GitFav](https://formulario-chi-livid.vercel.app)
+[GitFav](https://git-fav-mu.vercel.app)
 
 <p align="center">Done with 💜 by vithorDeveloper👋</p>
